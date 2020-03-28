@@ -6,7 +6,14 @@ class SocialsBar extends Component {
   render() {
     return (
       <div className="App">
-        <div className="socialsBar" style={{ width: "40%" }}>
+        <div
+          className="socialsBar"
+          style={{
+            width: "40%",
+            display: "flex",
+            flexDirection: "row"
+          }}
+        >
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link
             rel="stylesheet"

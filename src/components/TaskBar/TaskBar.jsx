@@ -7,10 +7,13 @@ class TaskBar extends Component {
   state = {};
   render() {
     return (
-      <div className="navBar">
+      <div
+        className="navBar"
+        style={{ display: "flex", flexDirection: "row", padding: "10px" }}
+      >
         <div
           className="dropDownMenu"
-          style={{ width: "30%", diplay: "inline-block" }}
+          style={{ width: "79%", diplay: "inline-block" }}
         >
           <button className="dropbtn">
             <div></div>
@@ -25,7 +28,14 @@ class TaskBar extends Component {
             <a href="../ContactUs/contact">C O N T A C T</a>
           </div>
         </div>
-        <SocialsBar style={{ display: "inline-block" }}></SocialsBar>
+        <SocialsBar
+          style={{
+            display: "inline-block",
+            flex: "auto",
+            align: "right",
+            alignSelf: "flex-end"
+          }}
+        ></SocialsBar>
       </div>
     );
   }
