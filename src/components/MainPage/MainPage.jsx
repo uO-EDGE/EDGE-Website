@@ -9,28 +9,28 @@ class MainPage extends Component {
         <div className="mainHeader" id="mainHeader" onmouseover="fadeInTxt()">
           <div style={{ padding: "10px" }}>
             <a
-              href="../About/about.php"
+              href="../about"
               className="animatetxt"
               style={{ padding: "40px" }}
             >
               About
             </a>
             <a
-              href="../Topics/topics.php"
+              href="../topics"
               className="animatetxt"
               style={{ padding: "40px" }}
             >
               Topics
             </a>
             <a
-              href="../Calendar/calendar.php"
+              href="../calendar"
               className="animatetxt"
               style={{ padding: "40px" }}
             >
               Calendar
             </a>
             <a
-              href="../Contact/contact.php"
+              href="../contact"
               className="animatetxt"
               style={{ padding: "40px" }}
             >

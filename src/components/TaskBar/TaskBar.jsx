@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import React, { Component } from "react";
 import SocialsBar from "./SocialsBar/SocialsBar";
 import "./TaskBar.css";
+import { Link } from "react-router-dom";
 
 class TaskBar extends Component {
   state = {};
@@ -21,11 +22,21 @@ class TaskBar extends Component {
             <div></div>
           </button>
           <div className="dropdown-content">
-            <a href="/home">H O M E</a>
-            <a href="..About/about.html">A B O U T</a>
-            <a href="../Topics/topics.html">T O P I C S</a>
-            <a href="#">C A L E N D A R</a>
-            <a href="../ContactUs/contact">C O N T A C T</a>
+            <Link to="/">
+              <a>H O M E</a>
+            </Link>
+            <Link to="/about">
+              <a>A B O U T</a>
+            </Link>
+            <Link to="/topics">
+              <a>T O P I C S</a>
+            </Link>
+            <Link to="/calendar">
+              <a>C A L E N D A R</a>
+            </Link>
+            <Link to="/contact">
+              <a>C O N T A C T</a>
+            </Link>
           </div>
         </div>
         <SocialsBar
