@@ -21,7 +21,7 @@ class SocialsBar extends Component {
           />
           <a href="#" className="fa fa-facebook"></a>
           <a
-            href="https://www.instagram.com/uo.e.d.g.e/"
+            href="https://www.instagram.com/uo.edge/"
             className="fa fa-instagram"
           ></a>
           <a href="#" className="fa fa-linkedin"></a>
