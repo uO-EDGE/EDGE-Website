@@ -3,7 +3,13 @@ import "bootstrap/dist/css/bootstrap.css";
 
 class About extends Component {
   render() {
-    return <div style={{ color: "red", paddingTop: "150px" }}>About</div>;
+    return (
+      <div
+        style={{ backgroundColor: "blue", color: "red", paddingTop: "150px" }}
+      >
+        About
+      </div>
+    );
   }
 }
 
