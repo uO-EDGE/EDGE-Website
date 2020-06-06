@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./MainPage.css";
 import { Spring } from "react-spring/renderprops";
+import BulbBG from './BulbBG.png';
+import BulbBG2 from './BulbBG2.png';
+import BulbBGGrey from './BulbBGGrey.png';
 
 class MainPage extends Component {
   render() {
@@ -15,7 +18,7 @@ class MainPage extends Component {
           >
             {props => (
               <div style={props}>
-                <div style={{ padding: "10px" }}>
+                <div style={{ padding: "40px" }}>
                   <a
                     href="../about"
                     className="animatetxt"
@@ -49,11 +52,23 @@ class MainPage extends Component {
             )}
           </Spring>
           <div className="titletxt">
-            <h1 style={{ paddingTop: "30px", paddingLeft: "20px" }}>EDGE</h1>
+            <h1 style={{ paddingTop: "30px", paddingLeft: "0.4em" }}>EDGE</h1>
             <h3>A PLACE FOR SCIENCE & TECH</h3>
           </div>
         </div>
-      </div>
+          <div className="overview">
+            <h1>UOttawa's destination for technology</h1>
+          </div>
+        <div className="slider">
+          <figure>
+            <img src={BulbBG} width="100%"/>
+            <img src={BulbBG2} width="100%"/>
+            <img src={BulbBGGrey} width="100%"/>
+            <img src={BulbBG} width="100%"/>
+          </figure>
+
+        </div>
+    </div>
     );
   }
 }
