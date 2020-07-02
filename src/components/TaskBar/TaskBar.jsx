@@ -12,10 +12,7 @@ class TaskBar extends Component {
         className="navBar"
         style={{ display: "flex", flexDirection: "row", padding: "10px" }}
       >
-        <div
-          className="dropDownMenu"
-          style={{ width: "79%", diplay: "inline-block" }}
-        >
+        <div className="dropDownMenu" style={{ diplay: "inline-block" }}>
           <button className="dropbtn">
             <div></div>
             <div></div>
@@ -39,14 +36,9 @@ class TaskBar extends Component {
             </Link>
           </div>
         </div>
-        <SocialsBar
-          style={{
-            display: "inline-block",
-            flex: "auto",
-            align: "right",
-            alignSelf: "flex-end"
-          }}
-        ></SocialsBar>
+        <div style={{ justifyContent: "flex-end", paddingLeft: "75%" }}>
+          <SocialsBar className="socialsBar"></SocialsBar>
+        </div>
       </div>
     );
   }

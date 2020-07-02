@@ -1,7 +1,6 @@
 .socialsBar {
-  display: inline-block;
-  float: right;
   padding-top: 7px;
+  display: inline-block;
 }
 
 .fa:hover {

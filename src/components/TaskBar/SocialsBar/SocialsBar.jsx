@@ -11,7 +11,6 @@ class SocialsBar extends Component {
           style={{
             width: "40%",
             display: "flex",
-            flexDirection: "row"
           }}
         >
           <meta name="viewport" content="width=device-width, initial-scale=1" />
