@@ -5,7 +5,7 @@ import "./SocialsBar.css";
 class SocialsBar extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="navBar">
         <div
           className="socialsBar"
           style={{

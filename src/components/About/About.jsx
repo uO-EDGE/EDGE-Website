@@ -11,6 +11,7 @@ class About extends Component {
           width: "97%",
           paddingLeft: "auto",
           paddingRight: "auto",
+          textAlign: "center",
         }}
       >
         <h2>A B O U T</h2>
