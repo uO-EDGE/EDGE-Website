@@ -33,13 +33,13 @@ class MainPage extends Component {
                   >
                     Topics
                   </a>
-                  <a
+                  {/*<a
                     href="../calendar"
                     className="animatetxt"
                     style={{ padding: "40px" }}
                   >
                     Calendar
-                  </a>
+                  </a>*/}
                   <a
                     href="../contact"
                     className="animatetxt"

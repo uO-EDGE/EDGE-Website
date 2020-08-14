@@ -28,9 +28,9 @@ class TaskBar extends Component {
             <Link to="/topics">
               <a>T O P I C S</a>
             </Link>
-            <Link to="/calendar">
+            {/*<Link to="/calendar">
               <a>C A L E N D A R</a>
-            </Link>
+    </Link>*/}
             <Link to="/contact">
               <a>C O N T A C T</a>
             </Link>
