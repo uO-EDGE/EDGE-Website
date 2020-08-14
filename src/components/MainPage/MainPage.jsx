@@ -9,7 +9,7 @@ import BulbBGGrey from "./BulbBGGrey.png";
 class MainPage extends Component {
   render() {
     return (
-      <div className="App" style={{ paddingTop: "90px" }}>
+      <div className="App" style={{ paddingTop: "60px" }}>
         <div className="mainHeader" id="mainHeader" onmouseover="fadeInTxt()">
           <Spring
             from={{ opacity: 0 }}
@@ -52,7 +52,7 @@ class MainPage extends Component {
             )}
           </Spring>
           <div className="titletxt">
-            <h1 style={{ paddingTop: "30px", paddingLeft: "0.4em" }}>EDGE</h1>
+            <h1 style={{ paddingTop: "0px" }}>EDGE</h1>
             <h3>A PLACE FOR SCIENCE & TECH</h3>
           </div>
         </div>

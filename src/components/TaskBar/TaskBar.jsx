@@ -19,7 +19,7 @@ class TaskBar extends Component {
             <div></div>
           </button>
           <div className="dropdown-content">
-            <Link to="/">
+            <Link to="/home">
               <a>H O M E</a>
             </Link>
             <Link to="/about">

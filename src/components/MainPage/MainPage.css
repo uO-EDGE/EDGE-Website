@@ -1,4 +1,4 @@
-body {
+.App {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: black;
   font-weight: normal;
@@ -6,9 +6,10 @@ body {
   margin: 0;
   text-align: center;
   background-image: url(BGgradientInv.png);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 a {
   text-decoration: none;
@@ -25,41 +26,49 @@ a:hover {
 
 .mainHeader {
   color: rgb(0, 0, 0);
-
-  padding-top: 105px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 70px;
   font-size: 25px;
   margin-top: 0px;
   align-content: center;
+  background-image: url(planeImage.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .mainHeader a {
-  color: rgb(0, 0, 0);
+  color: rgb(162, 169, 177);
 }
 
 .mainHeader h1 {
   font-size: 120px;
   letter-spacing: 0.5em;
   text-transform: uppercase;
-  padding-top: 0px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(108, 117, 125);
+  padding-left: 60px;
 }
 
 .titletxt {
   display: inline-block;
   text-align: center;
+  color: rgb(108, 117, 125);
+  padding-bottom: 30px;
 }
 
 .subHeader {
-  color: black;
   margin-top: 15px;
 }
 
 .overview {
   background-size: 100%;
-  font-family:"Lucida Sans Unicode";
+  font-family: "Lucida Sans Unicode";
 }
 
-.overview h1{
-  color:white;
+.overview h1 {
+  color: white;
   text-align: left;
   padding-left: 40px;
   background-color: rgba(75, 75, 75, 0.123);
@@ -67,27 +76,27 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-right: 10%;
-  margin-left:10%;
+  margin-left: 10%;
   border-radius: 5px;
 }
 
 .slider {
-overflow: hidden;
-margin:10%;
-border: 2px solid white;
-border-color: white;
-border-radius: 5px;
+  overflow: hidden;
+  margin: 10%;
+  border: 2px solid white;
+  border-color: white;
+  border-radius: 5px;
 }
 
-.slider figure{
-position: relative;
-width: 400%;
-margin: 0;
-left: 0;
-animation: 20s slider infinite;
+.slider figure {
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
 }
 
-.slider figure img{
+.slider figure img {
   width: 25%;
   float: left;
 }
@@ -117,5 +126,4 @@ animation: 20s slider infinite;
   100% {
     left: -300%;
   }
-
 }

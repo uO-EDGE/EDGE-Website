@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+}
+.EntryStyles {
+  background-image: url(Rocket.jpg);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entryh1 {
+  padding-right: 160px;
+  padding-top: 150px;
+  text-align: right;
+  font-size: 450%;
+}
+
+.entryh3 {
+  padding-top: 300px;
+  padding-bottom: 45px;
+  text-align: left;
+  padding-left: 110px;
+  color: antiquewhite;
+  text-decoration: none;
+}
