@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./MainPage.css";
 import { Spring } from "react-spring/renderprops";
-import BulbBG from './BulbBG.png';
-import BulbBG2 from './BulbBG2.png';
-import BulbBGGrey from './BulbBGGrey.png';
+import BulbBG from "./BulbBG.png";
+import BulbBG2 from "./BulbBG2.png";
+import BulbBGGrey from "./BulbBGGrey.png";
 
 class MainPage extends Component {
   render() {
@@ -16,7 +16,7 @@ class MainPage extends Component {
             to={{ opacity: 1 }}
             config={{ delay: 250, duration: 2000 }}
           >
-            {props => (
+            {(props) => (
               <div style={props}>
                 <div style={{ padding: "40px" }}>
                   <a
@@ -56,19 +56,18 @@ class MainPage extends Component {
             <h3>A PLACE FOR SCIENCE & TECH</h3>
           </div>
         </div>
-          <div className="overview">
-            <h1>UOttawa's destination for technology</h1>
-          </div>
+        <div className="overview">
+          <h1>UOttawa's destination for technology</h1>
+        </div>
         <div className="slider">
           <figure>
-            <img src={BulbBG} width="100%"/>
-            <img src={BulbBG2} width="100%"/>
-            <img src={BulbBGGrey} width="100%"/>
-            <img src={BulbBG} width="100%"/>
+            <img src={BulbBG} width="100%" />
+            <img src={BulbBG2} width="100%" />
+            <img src={BulbBGGrey} width="100%" />
+            <img src={BulbBG} width="100%" />
           </figure>
-
         </div>
-    </div>
+      </div>
     );
   }
 }
