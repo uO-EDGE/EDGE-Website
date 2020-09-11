@@ -4,6 +4,7 @@
   padding-right: 30px;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .navBar .dropDownMenu {

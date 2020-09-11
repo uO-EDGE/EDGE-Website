@@ -1,11 +1,11 @@
-.App {
+.MainApp {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: black;
   font-weight: normal;
   line-height: 1.6em;
   margin: 0;
   text-align: center;
-  background-image: url(BGgradientInv.png);
+  background-image: url(abstract-gradient.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

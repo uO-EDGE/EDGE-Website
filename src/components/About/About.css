@@ -1,32 +1,36 @@
-.intro {
-  padding-top: 40px;
+#about {
+  background-color: #fca311;
 }
 
 .services {
-  padding-top: 50px;
+  padding-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
 .services h4 {
-  background-color: #7b8ca2;
+  background-color: #14213d;
   color: white;
   padding: 30px;
-  text-align: center;
   text-transform: uppercase;
+  width: 98%;
   letter-spacing: 0.5em;
 }
 
 .services .block {
   margin-bottom: 70px;
   border: 2px;
-  border-style: dotted;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 50%;
   text-align: center;
   display: inline-block;
-  width: 30%;
-  background-color: white;
+  width: 22%;
+  color: black;
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 90px;
+
+  padding-bottom: 70px;
 }
 
 .hr {
@@ -77,56 +81,4 @@
 .topics a {
   color: black;
   letter-spacing: 0.8em;
-}
-
-.socialsBox {
-  width: 38%;
-  display: inline-block;
-  padding: 30px;
-  background-color: grey;
-  color: black;
-  box-sizing: border-box;
-}
-
-.socials {
-  background-color: white;
-  padding: 50px;
-}
-
-.title1 {
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.socialsBox p {
-  font: 16px;
-  text-align: justify;
-}
-
-.socialsBox ul {
-  padding: 10px;
-  list-style: none;
-  color: #f999;
-  background-color: red;
-  padding: 30px;
-  border: black 5px;
-}
-
-.socialsBox li {
-  list-style: none;
-  padding: 10px;
-}
-
-#fa2 {
-  padding: 10px;
-  font-size: 30px;
-  width: 25px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 5px;
-  border-radius: 50%;
-  display: inline;
 }

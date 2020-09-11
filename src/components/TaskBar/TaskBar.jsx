@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import React, { Component } from "react";
 import SocialsBar from "./SocialsBar/SocialsBar";
 import "./TaskBar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 class TaskBar extends Component {
   state = {};
@@ -19,19 +19,47 @@ class TaskBar extends Component {
             <div></div>
           </button>
           <div className="dropdown-content">
-            <Link to="/home">
+            <Link
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="home"
+            >
               <a>H O M E</a>
             </Link>
-            <Link to="/about">
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a>A B O U T</a>
             </Link>
-            <Link to="/topics">
+            <Link
+              activeClass="active"
+              to="topics"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a>T O P I C S</a>
             </Link>
             {/*<Link to="/calendar">
               <a>C A L E N D A R</a>
     </Link>*/}
-            <Link to="/contact">
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a>C O N T A C T</a>
             </Link>
           </div>

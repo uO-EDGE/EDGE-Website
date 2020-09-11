@@ -16,12 +16,11 @@ class EntryPage extends Component {
         <a href="../home" style={{ backgroundColor: "white" }}>
           <Typing speed={110} loop={true}>
             <span>
-              <h3 className="entryh3">enter.</h3>
+              <h3 className="entryh3">exploring science & tech.</h3>
             </span>
-            <Typing.Backspace count={15} />
+            <Typing.Backspace count={30} />
           </Typing>
         </a>
-        );
       </div>
     );
   }
