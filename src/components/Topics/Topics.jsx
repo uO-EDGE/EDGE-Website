@@ -4,6 +4,8 @@ import BulbBG from "./BulbBG.png";
 import BulbBG2 from "./BulbBG2.png";
 import BulbBGGrey from "./BulbBGGrey.png";
 import "./Topics.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 class Topics extends Component {
   render() {
@@ -38,14 +40,20 @@ class Topics extends Component {
           >
             Topics
           </h1>
-          <div className="slider" style={{ alignSelf: "center" }}>
-            <figure>
-              <img src={BulbBG} width="100%" />
-              <img src={BulbBG2} width="100%" />
-              <img src={BulbBGGrey} width="100%" />
-              <img src={BulbBG} width="100%" />
-            </figure>
-          </div>
+            <Carousel>
+                <div>
+                    <img src={BulbBG} />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={BulbBG2} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={BulbBGGrey} />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
         </div>
       </div>
     );
