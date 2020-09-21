@@ -10,11 +10,10 @@ import { Carousel } from 'react-responsive-carousel';
 class Topics extends Component {
   render() {
     return (
-      <div
+      <div className= "topicBody"
         style={{
           width: "100%",
-          transform: "skewY(5deg)",
-          backgroundColor: "#000000",
+             
         }}
         classname="diagonalBox"
       >
@@ -24,7 +23,7 @@ class Topics extends Component {
             paddingTop: "80px",
             paddingBottom: "100px",
 
-            transform: "skewY(-5deg)",
+          
             margin: "0 auto",
             position: "relative",
           }}
@@ -35,11 +34,12 @@ class Topics extends Component {
               textTransform: "uppercase",
               letterSpacing: "0.5em",
               textAlign: "center",
-              paddingBottom: "20px",
+              marginBottom: "500px",
+              backgroundColor: "#040413",
             }}
           >
             Topics
-          </h1>
+          </h1>{
             <Carousel>
                 <div>
                     <img src={BulbBG} />
@@ -54,7 +54,7 @@ class Topics extends Component {
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
-        </div>
+         }</div>
       </div>
     );
   }
