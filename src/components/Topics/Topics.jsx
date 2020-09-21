@@ -20,7 +20,7 @@ class Topics extends Component {
         <div
           style={{
             color: "white",
-            paddingTop: "80px",
+            paddingTop: "0px",
             paddingBottom: "100px",
 
           
